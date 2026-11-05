@@ -22,7 +22,6 @@ jobs:
         with:
           package-manager: npm
           node-version: 22
-          path: ./my-site
   deploy:
     needs: build
     runs-on: ubuntu-latest
